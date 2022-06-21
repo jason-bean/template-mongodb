@@ -26,10 +26,23 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
+  <Environment>
+    <Variable>
+      <Value>admin</Value>
+      <Name>MONGO_INITDB_ROOT_USERNAME</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>password</Value>
+      <Name>MONGO_INITDB_ROOT_PASSWORD</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
   <Version></Version>
   <Icon>https://raw.githubusercontent.com/jason-bean/template-mongodb/master/mongo.sh-600x600.png</Icon>
+  <ExtraParams>mongo --auth #</ExtraParams>
   <Beta>False</Beta>
   <Category>Network:Other</Category>
-  <Date>2017-02-15</Date>
+  <Date>2022-06-21</Date>
   <Support>http://lime-technology.com/forum/index.php?topic=56654.0</Support>
 </Container>
